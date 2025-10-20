@@ -18,10 +18,6 @@ Funcion potencia <- Elevar ( num1, num2 )
 	
 	Definir i, potencia Como Entero;
 	
-	potencia <- 1;
-	
-	Para i<-1 Hasta num2 Con Paso 1 Hacer
-		potencia <- potencia * num1;
-	Fin Para;
+	potencia <- num1 ^ num2;
 	
 Fin Funcion
