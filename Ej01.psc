@@ -60,11 +60,11 @@ FinSubAlgoritmo
 
 SubAlgoritmo MostrarPotencias2
 	Definir i, potencia Como Entero;
-	potencia <- 2;
+	potencia <- 0;
 	Escribir "PRIMERAS DIEZ POTENCIAS DE 2";
 	Escribir "------------------------------";
 	Para i <- 1 Hasta 10 Con Paso 1 Hacer
+		potencia <- 2 ^ i;
 		Escribir "2 ^ ", i, " = ", potencia;
-		potencia <- potencia * 2;
 	Fin Para;
 FinSubAlgoritmo
